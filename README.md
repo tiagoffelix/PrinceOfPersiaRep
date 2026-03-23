@@ -45,7 +45,12 @@ This is a tribute / remake project recreating the feel of the original Prince of
 
 ## Screenshots
 
-> _Add screenshots or GIFs here once available._
+<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/bc62d3b5-4cdd-4835-8fd0-6cfe622f2496" />
+<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/044eee29-0718-4855-bc43-6a3df9a670cd" />
+<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/1d1b96ef-400d-4444-814c-b606eddc8726" />
+<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/e80af4b0-31a6-4314-9508-de2df1ac6d62" />
+
+
 ---
 
 ## Getting Started

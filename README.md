@@ -1,152 +1,53 @@
-# Prince of Persia — Unity Remake
+# Prince of Persia (1989) Level Replica
 
-A 3D action-adventure game inspired by the classic **Prince of Persia** franchise, built with **Unity 2021.3 LTS** and **C#**. The game features platforming, melee combat, a day/night survival cycle, resource gathering, and a progression system.
+A solo, non-commercial educational study that recreates the first level of *Prince of Persia* (1989) in 3D with Unity and C#.
 
----
+## Project Overview
 
-## Table of Contents
+The project translates the original level's movement, timing, traversal, hazards, gates, and encounter pacing into a side-view 3D environment.
 
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Opening the Project](#opening-the-project)
-- [Controls](#controls)
-- [Gameplay Overview](#gameplay-overview)
-- [Project Structure](#project-structure)
-- [Built With](#built-with)
-- [License](#license)
+## Solo Role
 
----
+Role: Solo Programmer and Designer
 
-## About the Project
+I studied the original level, rebuilt its structure, and implemented the playable mechanics and sequence.
 
-This is a tribute / remake project recreating the feel of the original Prince of Persia in a fully 3D environment. Players navigate a Persian-themed castle world, fight skeleton warriors and mummies, collect resources, and survive each night to advance deeper into the story.
+## Mechanics Studied
 
----
+- Movement and jumping
+- Gates and pressure buttons
+- Falling floors and traps
+- Enemy attack behaviour
+- Level pacing and encounter placement
 
-## Features
+## Implementation
 
-- **3D Platforming** — navigate floors, falling platforms, and spike traps
-- **Melee Combat** — sword-based attack system with hitboxes
-- **Day / Night Cycle** — each night increases enemy count and difficulty
-- **Health & Armor System** — two-layer defense (armor absorbs damage before health)
-- **Resource Gathering** — collect Wood, Rock, and Metal
-- **Shop / Upgrade System** — spend resources between nights
-- **Dual Camera Modes** — toggle between first-person and third-person perspectives
-- **Pause Menu** — full pause / resume with stats and controls overlay
-- **In-game Timer** — 90-second day (9 AM – 8 PM in-game time)
-- **Boss Encounters** — boss fight tracking and special music
-- **Volume Control** — real-time audio slider
-- **Cinematic Intro** — skippable intro video
-
----
-
-## Screenshots
-
-<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/bc62d3b5-4cdd-4835-8fd0-6cfe622f2496" />
-<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/044eee29-0718-4855-bc43-6a3df9a670cd" />
-<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/1d1b96ef-400d-4444-814c-b606eddc8726" />
-<img width="347" height="195" alt="image" src="https://github.com/user-attachments/assets/e80af4b0-31a6-4314-9508-de2df1ac6d62" />
-
-
----
-
-## Getting Started
-
-### Prerequisites
-
-| Tool | Version |
-|------|---------|
-| [Unity Hub](https://unity.com/download) | Latest |
-| Unity Editor | **2021.3.20f1** (LTS) |
-| Visual Studio / VS Code | Any recent version |
-
-> The project was created with **Unity 2021.3.20f1**. Opening it with a different version may trigger an upgrade prompt — proceed with caution to avoid breaking compatibility.
-### Opening the Project
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/tiagoffelix/PrinceOfPersiaRep.git
-   ```
-
-2. **Open Unity Hub** and click **"Add project from disk"**.
-
-3. **Browse** to the cloned folder and select the **`Prince of Persia`** sub-directory (the folder that contains the `Assets` directory).
-
-4. Unity will import all assets automatically. This may take several minutes on first open.
-
-5. In the **Project** window, open `Assets/Scenes/Game.unity`.
-
-6. Press ▶ **Play** in the Unity Editor to run the game.
-
----
+The replica uses Unity 2021.3 LTS and C#. Its 3D geometry and camera preserve the readable side-view structure of the 2D reference while gameplay scripts reproduce the level's interactions.
 
 ## Controls
 
-| Action | Key / Button |
-|--------|-------------|
-| Move Left / Right | `←` / `→` Arrow Keys |
-| Jump | `↑` Arrow Key |
-| Attack | _(configured in-scene)_ |
-| Toggle Camera | Camera switch UI button |
-| Pause | Pause button / `Escape` |
-| Skip Intro | Press any key (at intro screen) |
+| Action | Input |
+| --- | --- |
+| Move left or right | Left / Right Arrow |
+| Jump | Up Arrow |
+| Attack | Configured in the playable scene |
 
----
+## Known Differences
 
-## Gameplay Overview
+This is a focused mechanics study, not a complete remake. Presentation, assets, animation, and some timing differ from the original game.
 
-1. **Day Phase** (90 seconds) — explore the level, collect resources (Wood, Rock, Metal), and visit the shop to upgrade your equipment.
-2. **Night Phase** — survive waves of skeleton warriors and mummies. Each night increases enemy count.
-3. **Health & Armor** — your Paladin has 100 HP and 100 Armor. Armor absorbs hits first; restore health with collected Health Bottles.
-4. **Progression** — defeat the boss encounter to reach the game's ending.
+## Screenshots
 
----
+Existing repository screenshots show the recreated side-view dungeon and playable level sequence.
 
-## Project Structure
+## Itch.io
 
-```
-PrinceOfPersiaRep/
-└── Prince of Persia/          # Unity project root
-    ├── Assets/
-    │   ├── Scripts/           # C# gameplay scripts
-    │   │   ├── PlayerMovement.cs
-    │   │   ├── PlayerStats.cs
-    │   │   ├── PauseMenu3D.cs
-    │   │   ├── CameraSwitch.cs
-    │   │   ├── VolumeController.cs
-    │   │   ├── VolumeSlider.cs
-    │   │   └── PressToSkip.cs
-    │   ├── Scenes/            # Game scenes (Game.unity)
-    │   ├── Animations/        # Character FBX animations & controllers
-    │   ├── Prefabs/           # Reusable game objects (39 prefabs)
-    │   └── Assets/            # Third-party art packs
-    │       ├── Low Poly Pack - Environment Lite/
-    │       ├── Historic environment/
-    │       ├── Castle assets package/
-    │       ├── Skeleton Warrior/
-    │       ├── Mummy/
-    │       └── RPG Pack/
-    ├── Packages/              # Unity package manifest
-    ├── ProjectSettings/       # Engine & platform settings
-    └── Nivel e sons/          # Level design resources & audio notes
-```
+[Play the Windows build](https://speazyy.itch.io/replica-of-prince-of-persia-1989)
 
----
+## Portfolio Case Study
 
-## Built With
+[View portfolio case study](https://tiagoffelix.com/projects/prince-of-persia-replica)
 
-- [Unity 2021.3 LTS](https://unity.com/) — game engine
-- **C#** — scripting language
-- [ProBuilder](https://unity.com/features/probuilder) — in-editor level design
-- [TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@latest) — UI text rendering
-- [Unity Timeline](https://docs.unity3d.com/Packages/com.unity.timeline@latest) — cinematic sequences
-- [Unity Visual Scripting](https://unity.com/features/unity-visual-scripting) — node-based scripting support
+## Educational Disclaimer
 
----
-
-## License
-
-This project is for educational and portfolio purposes. All third-party assets (environment packs, character models, audio) remain the property of their respective creators and are subject to their own licenses.
+This is a non-commercial educational project and is not affiliated with or endorsed by the owners of Prince of Persia.

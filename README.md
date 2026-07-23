@@ -45,7 +45,7 @@ Existing repository screenshots show the recreated side-view dungeon and playabl
 
 ## Portfolio Case Study
 
-[View portfolio case study](https://tiagoffelix.com/projects/prince-of-persia-replica)
+[View portfolio case study](https://tiagoffelix.com/projects/prince-of-persia-replica/)
 
 ## Educational Disclaimer
 

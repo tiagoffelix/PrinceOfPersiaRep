@@ -30,7 +30,6 @@ The replica uses Unity 2021.3 LTS and C#. Its 3D geometry and camera preserve th
 | --- | --- |
 | Move left or right | Left / Right Arrow |
 | Jump | Up Arrow |
-| Attack | Configured in the playable scene |
 
 ## Known Differences
 

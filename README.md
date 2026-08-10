@@ -2,11 +2,11 @@
 
 A solo, non-commercial educational study that recreates the first level of *Prince of Persia* (1989) in 3D with Unity and C#.
 
-## Project Overview
+## Overview
 
 The project translates the original level's movement, timing, traversal, hazards, gates, and encounter pacing into a side-view 3D environment.
 
-## Solo Role
+## Role
 
 Role: Solo Programmer and Designer
 
@@ -35,17 +35,10 @@ The replica uses Unity 2021.3 LTS and C#. Its 3D geometry and camera preserve th
 
 This is a focused mechanics study, not a complete remake. Presentation, assets, animation, and some timing differ from the original game.
 
-## Screenshots
+## Links
 
-Existing repository screenshots show the recreated side-view dungeon and playable level sequence.
-
-## Itch.io
-
-[Play the Windows build](https://speazyy.itch.io/replica-of-prince-of-persia-1989)
-
-## Portfolio Case Study
-
-[View portfolio case study](https://tiagoffelix.com/projects/prince-of-persia-replica/)
+- [Play on itch.io](https://speazyy.itch.io/replica-of-prince-of-persia-1989)
+- [Case Study](https://tiagoffelix.com/projects/prince-of-persia-replica/)
 
 ## Educational Disclaimer
 

@@ -35,6 +35,10 @@ The replica uses Unity 2021.3 LTS and C#. Its 3D geometry and camera preserve th
 
 This is a focused mechanics study, not a complete remake. Presentation, assets, animation, and some timing differ from the original game.
 
+## Academic Context
+
+Completed as a 162-hour academic research project related to procedural content generation, receiving a 5/5 evaluation.
+
 ## Links
 
 - [Play on itch.io](https://speazyy.itch.io/replica-of-prince-of-persia-1989)

@@ -37,7 +37,7 @@ This is a focused mechanics study, not a complete remake. Presentation, assets, 
 
 ## Academic Context
 
-Completed as a 162-hour academic research project and received a 5/5 evaluation. The wider research context included procedural content generation, but this level replica itself is a hand-authored mechanics and pacing study; it does not implement procedural generation.
+Completed as a 162-hour academic research project and received a 5/5 evaluation. The wider research context included procedural content generation, but this level replica itself is a hand-authored mechanics and pacing study. It does not implement procedural generation.
 
 ## Links
 
